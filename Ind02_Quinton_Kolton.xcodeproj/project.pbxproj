@@ -13,6 +13,7 @@
 		94BE7D5A27C45EA8009B39AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BE7D5827C45EA8009B39AF /* Main.storyboard */; };
 		94BE7D5C27C45EA9009B39AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94BE7D5B27C45EA9009B39AF /* Assets.xcassets */; };
 		94BE7D5F27C45EA9009B39AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BE7D5D27C45EA9009B39AF /* LaunchScreen.storyboard */; };
+		94BE7D6927C4A308009B39AF /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE7D6827C4A308009B39AF /* AnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		94BE7D5B27C45EA9009B39AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94BE7D5E27C45EA9009B39AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94BE7D6027C45EA9009B39AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94BE7D6827C4A308009B39AF /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				94BE7D5427C45EA8009B39AF /* SceneDelegate.swift */,
 				94BE7D5627C45EA8009B39AF /* ViewController.swift */,
 				94BE7D5827C45EA8009B39AF /* Main.storyboard */,
+				94BE7D6827C4A308009B39AF /* AnswerViewController.swift */,
 				94BE7D5B27C45EA9009B39AF /* Assets.xcassets */,
 				94BE7D5D27C45EA9009B39AF /* LaunchScreen.storyboard */,
 				94BE7D6027C45EA9009B39AF /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BE7D6927C4A308009B39AF /* AnswerViewController.swift in Sources */,
 				94BE7D5727C45EA8009B39AF /* ViewController.swift in Sources */,
 				94BE7D5327C45EA8009B39AF /* AppDelegate.swift in Sources */,
 				94BE7D5527C45EA8009B39AF /* SceneDelegate.swift in Sources */,

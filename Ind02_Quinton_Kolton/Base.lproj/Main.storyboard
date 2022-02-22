@@ -109,6 +109,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="ShowAnswerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a1H-Rr-ha5"/>
+                                    <segue destination="kZO-UU-7pg" kind="show" id="Nur-5Q-Wca"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-1-4" translatesAutoresizingMaskIntoConstraints="NO" id="vwm-ZU-0QW">
@@ -138,9 +139,120 @@
             </objects>
             <point key="canvasLocation" x="-472.46376811594206" y="72.991071428571431"/>
         </scene>
+        <!--Answer View Controller-->
+        <scene sceneID="DqO-Rf-XzA">
+            <objects>
+                <viewController id="kZO-UU-7pg" customClass="AnswerViewController" customModule="Ind02_Quinton_Kolton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="opW-B5-eJo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="akali-0-1" translatesAutoresizingMaskIntoConstraints="NO" id="8ff-eG-OPR">
+                                <rect key="frame" x="20" y="247" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="akali-0-2" translatesAutoresizingMaskIntoConstraints="NO" id="K7s-sG-DHO">
+                                <rect key="frame" x="20" y="340" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-0-3" translatesAutoresizingMaskIntoConstraints="NO" id="ZKt-GU-KpT">
+                                <rect key="frame" x="20" y="433" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-0-4" translatesAutoresizingMaskIntoConstraints="NO" id="eee-ft-65F">
+                                <rect key="frame" x="20" y="526" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-1-0" translatesAutoresizingMaskIntoConstraints="NO" id="98U-Hy-XOs">
+                                <rect key="frame" x="113" y="154" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-1-1" translatesAutoresizingMaskIntoConstraints="NO" id="X8b-A1-JRV">
+                                <rect key="frame" x="113" y="247" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-1-2" translatesAutoresizingMaskIntoConstraints="NO" id="ffV-yL-css">
+                                <rect key="frame" x="113" y="340" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-1-3" translatesAutoresizingMaskIntoConstraints="NO" id="HuA-5b-haP">
+                                <rect key="frame" x="113" y="433" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-2-0" translatesAutoresizingMaskIntoConstraints="NO" id="vfU-LT-96i">
+                                <rect key="frame" x="206" y="154" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-2-1" translatesAutoresizingMaskIntoConstraints="NO" id="gDp-oO-Udh">
+                                <rect key="frame" x="206" y="247" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-2-2" translatesAutoresizingMaskIntoConstraints="NO" id="1yB-B2-L4P">
+                                <rect key="frame" x="206" y="340" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-2-3" translatesAutoresizingMaskIntoConstraints="NO" id="oRy-0x-irQ">
+                                <rect key="frame" x="206" y="433" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-2-4" translatesAutoresizingMaskIntoConstraints="NO" id="TaY-78-6nr">
+                                <rect key="frame" x="206" y="526" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-3-0" translatesAutoresizingMaskIntoConstraints="NO" id="kFv-wt-d5s">
+                                <rect key="frame" x="299" y="154" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-3-1" translatesAutoresizingMaskIntoConstraints="NO" id="2lC-aU-pXg">
+                                <rect key="frame" x="299" y="247" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-3-2" translatesAutoresizingMaskIntoConstraints="NO" id="GLR-hL-ewr">
+                                <rect key="frame" x="299" y="340" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-3-3" translatesAutoresizingMaskIntoConstraints="NO" id="89V-wH-mhO">
+                                <rect key="frame" x="299" y="433" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-3-4" translatesAutoresizingMaskIntoConstraints="NO" id="czC-CR-Wnt">
+                                <rect key="frame" x="299" y="526" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-1-4" translatesAutoresizingMaskIntoConstraints="NO" id="yfs-bm-rbp">
+                                <rect key="frame" x="113" y="526" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="akali-0-0" translatesAutoresizingMaskIntoConstraints="NO" id="joH-BM-hid">
+                                <rect key="frame" x="20" y="154" width="93" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EvL-LL-Pmj">
+                                <rect key="frame" x="102" y="678" width="210" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Hide Answer">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="cGx-ax-cBh" kind="unwind" unwindAction="unwindToViewControllerWithSegue:" id="o4s-7l-I08"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2ew-Ef-tG9"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lCV-Fn-zv4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="07w-L4-3wN" sceneMemberID="firstResponder"/>
+                <exit id="cGx-ax-cBh" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="308.69565217391306" y="72.991071428571431"/>
+        </scene>
     </scenes>
     <resources>
         <image name="6090663" width="200" height="200"/>
+        <image name="akali-0-0" width="200" height="200"/>
         <image name="akali-0-1" width="200" height="200"/>
         <image name="akali-0-2" width="200" height="200"/>
         <image name="akali-0-3" width="200" height="200"/>
