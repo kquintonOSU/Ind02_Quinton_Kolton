@@ -15,15 +15,52 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+/*
+    var PuzzleImageTest: [UIImage] = [
+        UIImage(named: "6090663.png")!,
+        UIImage(named: "akali-0-1.png")!,
+        UIImage(named: "akali-0-2.png")!,
+        UIImage(named: "akali-0-3.png")!,
+        UIImage(named: "akali-0-4.png")!,
+        UIImage(named: "akali-1-0.png")!,
+        UIImage(named: "akali-1-1.png")!,
+        UIImage(named: "akali-1-2.png")!,
+        UIImage(named: "akali-1-3.png")!,
+        UIImage(named: "akali-1-4.png")!,
+        UIImage(named: "akali-2-0.png")!,
+        UIImage(named: "akali-2-1.png")!,
+        UIImage(named: "akali-2-2.png")!,
+        UIImage(named: "akali-2-3.png")!,
+        UIImage(named: "akali-2-4.png")!,
+        UIImage(named: "akali-3-0.png")!,
+        UIImage(named: "akali-3-1.png")!,
+        UIImage(named: "akali-3-2.png")!,
+        UIImage(named: "akali-3-3.png")!,
+        UIImage(named: "akali-3-4.png")!
+    ]
+ */
+    var PuzzleImage: [[UIImage]] = [
+        [UIImage(named: "6090663.png")!, UIImage(named: "akali-1-0.png")!, UIImage(named: "akali-2-0.png")!,UIImage(named: "akali-3-0.png")!],
+        [UIImage(named: "akali-0-1.png")!, UIImage(named: "akali-1-1.png")!, UIImage(named: "akali-2-1.png")!,UIImage(named: "akali-3-1.png")!],
+        [UIImage(named: "akali-0-2.png")!, UIImage(named: "akali-1-2.png")!, UIImage(named: "akali-2-2.png")!,UIImage(named: "akali-3-2.png")!],
+        [UIImage(named: "akali-0-3.png")!, UIImage(named: "akali-1-3.png")!, UIImage(named: "akali-2-3.png")!,UIImage(named: "akali-3-3.png")!],
+        [UIImage(named: "akali-0-4.png")!, UIImage(named: "akali-1-4.png")!, UIImage(named: "akali-2-4.png")!,UIImage(named: "akali-3-4.png")!]
+    ]
 
     @IBAction func ShuffleButton(_ sender: UIButton) {
+        var x: Int = 0
+        
+        while x < 25 {
+            var y: Int = Int.random(in: 0..<3)
+            
+            x += 1
+        }
     }
     
     @IBAction func ShowAnswerButton(_ sender: UIButton) {
     }
     
     @IBAction func unwindToViewController(segue: UIStoryboardSegue) {
-        //nothing goes here
     }
 }
 
