@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var NameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func ShuffleButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func ShowAnswerButton(_ sender: UIButton) {
+    }
 }
 
