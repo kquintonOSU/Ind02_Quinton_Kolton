@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    var PuzzleImageTest: [UIImage] = [
+    var solvedPuzzleImage: [UIImage] = [
         UIImage(named: "6090663.png")!,
         UIImage(named: "akali-0-1.png")!,
         UIImage(named: "akali-0-2.png")!,
@@ -38,9 +38,51 @@ class ViewController: UIViewController {
         UIImage(named: "akali-3-3.png")!,
         UIImage(named: "akali-3-4.png")!
     ]
- 
+    
+    @IBOutlet weak var image000: UIImageView!
+    @IBOutlet weak var image001: UIImageView!
+    @IBOutlet weak var image002: UIImageView!
+    @IBOutlet weak var image003: UIImageView!
+    @IBOutlet weak var image004: UIImageView!
+    @IBOutlet weak var image010: UIImageView!
+    @IBOutlet weak var image011: UIImageView!
+    @IBOutlet weak var image012: UIImageView!
+    @IBOutlet weak var image013: UIImageView!
+    @IBOutlet weak var image014: UIImageView!
+    @IBOutlet weak var image020: UIImageView!
+    @IBOutlet weak var image021: UIImageView!
+    @IBOutlet weak var image022: UIImageView!
+    @IBOutlet weak var image023: UIImageView!
+    @IBOutlet weak var image024: UIImageView!
+    @IBOutlet weak var image030: UIImageView!
+    @IBOutlet weak var image031: UIImageView!
+    @IBOutlet weak var image032: UIImageView!
+    @IBOutlet weak var image033: UIImageView!
+    @IBOutlet weak var image034: UIImageView!
+     
 
     @IBAction func ShuffleButton(_ sender: UIButton) {
+        let unsolvedPuzzleImage = solvedPuzzleImage.shuffled()
+        image000.image = unsolvedPuzzleImage[0]
+        image001.image = unsolvedPuzzleImage[1]
+        image002.image = unsolvedPuzzleImage[2]
+        image003.image = unsolvedPuzzleImage[3]
+        image004.image = unsolvedPuzzleImage[4]
+        image010.image = unsolvedPuzzleImage[5]
+        image011.image = unsolvedPuzzleImage[6]
+        image012.image = unsolvedPuzzleImage[7]
+        image013.image = unsolvedPuzzleImage[8]
+        image014.image = unsolvedPuzzleImage[9]
+        image020.image = unsolvedPuzzleImage[10]
+        image021.image = unsolvedPuzzleImage[11]
+        image022.image = unsolvedPuzzleImage[12]
+        image023.image = unsolvedPuzzleImage[13]
+        image024.image = unsolvedPuzzleImage[14]
+        image030.image = unsolvedPuzzleImage[15]
+        image031.image = unsolvedPuzzleImage[16]
+        image032.image = unsolvedPuzzleImage[17]
+        image033.image = unsolvedPuzzleImage[18]
+        image034.image = unsolvedPuzzleImage[19]
     }
     
     @IBAction func ShowAnswerButton(_ sender: UIButton) {

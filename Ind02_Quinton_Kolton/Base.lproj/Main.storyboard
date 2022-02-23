@@ -213,6 +213,26 @@
                     </view>
                     <connections>
                         <outlet property="NameLabel" destination="nwK-cO-Xsm" id="cOi-tf-hQ7"/>
+                        <outlet property="image000" destination="ZGN-JK-SBX" id="R0X-cK-dso"/>
+                        <outlet property="image001" destination="Q0s-3O-70r" id="KpB-C3-a3J"/>
+                        <outlet property="image002" destination="bVv-Gn-b8G" id="IIF-PK-5kd"/>
+                        <outlet property="image003" destination="CqP-UA-O9Q" id="wOF-ad-FZ2"/>
+                        <outlet property="image004" destination="cw5-ty-T9p" id="CzK-5S-flc"/>
+                        <outlet property="image010" destination="J7U-lU-ewQ" id="101-A4-Wjr"/>
+                        <outlet property="image011" destination="Tri-zP-EVV" id="5GB-88-Eo7"/>
+                        <outlet property="image012" destination="Uyv-dx-RqC" id="aIO-Ra-6N1"/>
+                        <outlet property="image013" destination="h37-7C-hUV" id="8Im-Fl-S88"/>
+                        <outlet property="image014" destination="vwm-ZU-0QW" id="x4P-iB-b5e"/>
+                        <outlet property="image020" destination="KJq-ZC-nNQ" id="zhz-5H-S0m"/>
+                        <outlet property="image021" destination="zdF-oF-FUM" id="b4z-tE-4T2"/>
+                        <outlet property="image022" destination="NrD-g8-LDS" id="9L1-cl-kUN"/>
+                        <outlet property="image023" destination="ETN-8l-F33" id="73f-aL-VjX"/>
+                        <outlet property="image024" destination="oJa-CD-InY" id="BTT-R3-7JK"/>
+                        <outlet property="image030" destination="Jbk-o3-tvh" id="XlY-zq-KIE"/>
+                        <outlet property="image031" destination="0gY-qj-eFG" id="Di6-Bb-CzO"/>
+                        <outlet property="image032" destination="jxi-Om-6cQ" id="0mr-cs-KOq"/>
+                        <outlet property="image033" destination="1pr-pz-bBc" id="znD-qj-HJo"/>
+                        <outlet property="image034" destination="2Vu-5h-00c" id="B3K-Aj-7gO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
