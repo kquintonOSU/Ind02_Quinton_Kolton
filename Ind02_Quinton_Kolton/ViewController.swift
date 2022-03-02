@@ -59,7 +59,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var image032: UIImageView!
     @IBOutlet weak var image033: UIImageView!
     @IBOutlet weak var image034: UIImageView!
-
     
     @IBAction func ShuffleButton(_ sender: UIButton) {
         let unsolvedPuzzleImage = solvedPuzzleImage.shuffled()
