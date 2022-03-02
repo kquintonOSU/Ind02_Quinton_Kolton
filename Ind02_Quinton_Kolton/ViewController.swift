@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    // Array for solved image
     var solvedPuzzleImage: [UIImage] = [
         UIImage(named: "6090663.png")!,
         UIImage(named: "akali-0-1.png")!,
@@ -39,6 +40,7 @@ class ViewController: UIViewController {
         UIImage(named: "akali-3-4.png")!
     ]
     
+    // Outlet for all the images in the grid
     @IBOutlet weak var image000: UIImageView!
     @IBOutlet weak var image001: UIImageView!
     @IBOutlet weak var image002: UIImageView!
@@ -60,6 +62,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var image033: UIImageView!
     @IBOutlet weak var image034: UIImageView!
     
+    // Shuffle function. shuffles solved image array and places into unsolved image array.
     @IBAction func ShuffleButton(_ sender: UIButton) {
         let unsolvedPuzzleImage = solvedPuzzleImage.shuffled()
         image000.image = unsolvedPuzzleImage[0]
@@ -84,12 +87,15 @@ class ViewController: UIViewController {
         image034.image = unsolvedPuzzleImage[19]
     }
     
+    // Show answer button segues into the answer View.
     @IBAction func ShowAnswerButton(_ sender: UIButton) {
     }
     
+    // Button in the show answer View will unwind segue back to main storyboard to continue game
     @IBAction func unwindToViewController(segue: UIStoryboardSegue) {
     }
     
+    // Tap gesture recognizers for all 20 images.
     @IBAction func image00(_ sender: UITapGestureRecognizer) {
     }
     
