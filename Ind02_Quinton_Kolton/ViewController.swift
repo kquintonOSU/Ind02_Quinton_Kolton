@@ -95,65 +95,329 @@ class ViewController: UIViewController {
     @IBAction func unwindToViewController(segue: UIStoryboardSegue) {
     }
     
+    var selected1: UIImageView? = nil
+    var selected2: UIImageView? = nil
+    
     // Tap gesture recognizers for all 20 images.
     @IBAction func image00(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image01(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image02(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image03(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
+        
     }
     
     @IBAction func image04(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image10(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image11(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image12(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image13(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image14(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image20(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image21(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image22(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image23(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image24(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image30(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image31(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image32(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image33(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
     @IBAction func image34(_ sender: UITapGestureRecognizer) {
+        if sender.state == .ended {
+            if (image000.image == solvedPuzzleImage[0]) {
+                selected1 = sender.view as? UIImageView
+            }
+            
+            if (image000.image != solvedPuzzleImage[0]) {
+                selected2 = sender.view as? UIImageView
+            }
+            
+            if (selected1 != nil && selected2 != nil) {
+                (selected1!.image, selected2!.image) = (selected2!.image, selected1!.image)
+            }
+        }
     }
     
 }
